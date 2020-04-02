@@ -1,0 +1,6 @@
+C:\Users\artem\OneDrive\Рабочий стол\SnakeGeek\Snake\Snake\bin\Debug\Snake.exe.config
+C:\Users\artem\OneDrive\Рабочий стол\SnakeGeek\Snake\Snake\bin\Debug\Snake.exe
+C:\Users\artem\OneDrive\Рабочий стол\SnakeGeek\Snake\Snake\bin\Debug\Snake.pdb
+C:\Users\artem\OneDrive\Рабочий стол\SnakeGeek\Snake\Snake\obj\Debug\Snake.csprojAssemblyReference.cache
+C:\Users\artem\OneDrive\Рабочий стол\SnakeGeek\Snake\Snake\obj\Debug\Snake.exe
+C:\Users\artem\OneDrive\Рабочий стол\SnakeGeek\Snake\Snake\obj\Debug\Snake.pdb
