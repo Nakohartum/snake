@@ -33,11 +33,11 @@ namespace Snake
             }
             else if(direction == Snake.Direction.Up)
             {
-                y += offset;
+                y -= offset;
             }
             else if(direction == Snake.Direction.Down)
             {
-                y -= offset;
+                y += offset;
             }
         }
         public Point(int x, int y,char sym)

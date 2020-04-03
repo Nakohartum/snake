@@ -13,7 +13,7 @@ namespace Snake
         {
             Left, Right, Up, Down
         }
-        Direction direction;
+         Direction direction;
         public Snake(Point tail, int length, Direction direction)
         {
             this.direction = direction;
@@ -42,6 +42,18 @@ namespace Snake
             Point nextPoint = new Point(head);
             nextPoint.Move(1, this.direction);
             return nextPoint;
+        }
+        public void HandleKey(ConsoleKey key)
+        {
+            
+            if (key == ConsoleKey.LeftArrow)
+                this.direction = Snake.Direction.Left;
+            else if (key == ConsoleKey.RightArrow)
+                this.direction = Snake.Direction.Right;
+            else if (key == ConsoleKey.DownArrow)
+                this.direction = Snake.Direction.Down;
+            else if (key == ConsoleKey.UpArrow)
+                this.direction = Snake.Direction.Up;
         }
     }
 }
